@@ -6,10 +6,12 @@ As Ersa is learning now, she wants to explore more and more. Tell Ersa to genera
 ৫ নম্বরের জন্য একটি গুণক সারণী তৈরি করতে।
 
 */
+
 console.log("Multiplication Table for 5:");
-for (let i = 1; i <= 15; i++) {
+for (let i = 1; i <= 10; i++) {
     console.log(`5 x ${i} = ${5 * i}`);
 }
+
 
 /**
  * 
@@ -17,5 +19,4 @@ for (let i = 1; i <= 15; i++) {
 for (let i = 1; i <= 10; i++) {
     console.log(`৫ x ${i} = ${5 * i}`);
 }
-
- */
+    */

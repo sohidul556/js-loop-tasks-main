@@ -5,7 +5,7 @@ Write a loop 1 to 200. Use break to exit the loop once you find 100.
 
 */
 
-
+/*
 for (let i = 1; i <= 200; i++) {
     if (i === 100) { // যদি ১০০ পাওয়া যায়
         console.log(`Found ${i}, exiting the loop.`); // `${i} খুঁজে পেলাম, লুপ থেকে বেরিয়ে আসছি।`
@@ -14,3 +14,12 @@ for (let i = 1; i <= 200; i++) {
     console.log(i);
 }
 
+
+*/
+ for(let i = 1;i <= 200; i++){
+    if(i===100){
+        console.log('Found the 100 exiting the');
+        break;
+    }
+    console.log(i);
+ }
